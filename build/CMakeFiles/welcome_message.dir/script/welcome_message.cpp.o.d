@@ -1,5 +1,5 @@
 CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o: \
-  /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/script/welcome_message.cpp \
+  /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/script/welcome_message.cpp \
   /opt/homebrew/include/gazebo-11/gazebo/gazebo.hh \
   /opt/homebrew/include/gazebo-11/gazebo/gazebo_core.hh \
   /opt/homebrew/include/gazebo-11/gazebo/common/common.hh \

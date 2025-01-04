@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric
+CMAKE_SOURCE_DIR = /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/build
+CMAKE_BINARY_DIR = /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/welcome_message.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/welcome_message.dir/progress.make
 include CMakeFiles/welcome_message.dir/flags.make
 
 CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o: CMakeFiles/welcome_message.dir/flags.make
-CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o: /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/script/welcome_message.cpp
+CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o: /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/script/welcome_message.cpp
 CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o: CMakeFiles/welcome_message.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o -MF CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o.d -o CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o -c /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/script/welcome_message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o -MF CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o.d -o CMakeFiles/welcome_message.dir/script/welcome_message.cpp.o -c /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/script/welcome_message.cpp
 
 CMakeFiles/welcome_message.dir/script/welcome_message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/welcome_message.dir/script/welcome_message.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/script/welcome_message.cpp > CMakeFiles/welcome_message.dir/script/welcome_message.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/script/welcome_message.cpp > CMakeFiles/welcome_message.dir/script/welcome_message.cpp.i
 
 CMakeFiles/welcome_message.dir/script/welcome_message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/welcome_message.dir/script/welcome_message.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/script/welcome_message.cpp -o CMakeFiles/welcome_message.dir/script/welcome_message.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/script/welcome_message.cpp -o CMakeFiles/welcome_message.dir/script/welcome_message.cpp.s
 
 # Object files for target welcome_message
 welcome_message_OBJECTS = \
@@ -215,7 +215,7 @@ libwelcome_message.dylib: /opt/anaconda3/lib/libabsl_spinlock_wait.2308.0.0.dyli
 libwelcome_message.dylib: /opt/homebrew/lib/libignition-math6.6.15.1.dylib
 libwelcome_message.dylib: /opt/homebrew/lib/libignition-common3.3.17.0.dylib
 libwelcome_message.dylib: CMakeFiles/welcome_message.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libwelcome_message.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libwelcome_message.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/welcome_message.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -227,6 +227,6 @@ CMakeFiles/welcome_message.dir/clean:
 .PHONY : CMakeFiles/welcome_message.dir/clean
 
 CMakeFiles/welcome_message.dir/depend:
-	cd /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/build /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/build /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/Rubric/build/CMakeFiles/welcome_message.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/build /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/build /Users/preetham/Desktop/Udacity/RoboticsSoftwareEngineer/git_folder/Rubric/build/CMakeFiles/welcome_message.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/welcome_message.dir/depend
 
